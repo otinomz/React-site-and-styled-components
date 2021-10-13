@@ -1,10 +1,19 @@
-import Header from './components/Header';
+import GlobalStyle from './globalStyles';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
+import { Navbar } from "./components";
+
 
 function App() {
   return (
-    <div className="App">
-      <Header/>
-    </div>
+    // <GlobalStyles>
+    <Router>
+      <GlobalStyle/>
+        <Navbar />
+        {/* <Switch>  </Switch> */}
+
+      </Router>
+    
+
   );
 }
 
