@@ -1,11 +1,11 @@
 import React from 'react'
-import { InfoSec } from '../../components/InfoSection/Info.elements'
-import { homeObjectOne } from './Data'
+import { Info } from '../../components'
+import { homeObjOne } from './Data'
 
 const Home = () => {
     return (
         <>
-            <InfoSec {...homeObjectOne}/>
+            <Info {...homeObjOne}/>
         </>
     )
 }
