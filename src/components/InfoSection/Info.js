@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import { Button, Container } from '../../globalStyles'
+// import Imgs from '../../../src/images/bg.svg'
 import {
     InfoRow,
     InfoColumn,
