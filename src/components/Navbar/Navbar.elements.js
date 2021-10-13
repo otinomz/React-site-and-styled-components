@@ -81,7 +81,7 @@ export const NavItem = styled.li`
         width: 100%;
 
         &:hover{
-            border-bottom: 2px solid #4b59f7;
+            border-bottom: none;
         }
     }   
 
@@ -107,5 +107,29 @@ export const NavLinks = styled(Link)`
         }
     }   
 
+
+`
+
+export const NavItemBtn = styled.li`
+    @media (max-width: 960px) {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 120px;
+
+    }    
+`
+
+export const NavBtnLink = styled(Link)`
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    padding: 8px 16px;
+    height: 100%;
+    width: 100%;
+    border: none;
+    outline: none;
 
 `
